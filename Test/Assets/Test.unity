@@ -315,7 +315,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0bf500a220ea8bc479aabb7cc66a17d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -593,6 +593,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 1828492381981091326, guid: 104fabd16fd676147a18a37d122385b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3bd3bf5978cbb114796a5f8182af1021, type: 2}
     - target: {fileID: 244587559986223336, guid: 104fabd16fd676147a18a37d122385b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -663,10 +668,5 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 100
       objectReference: {fileID: 0}
-    - target: {fileID: 1828492381981091326, guid: 104fabd16fd676147a18a37d122385b0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3bd3bf5978cbb114796a5f8182af1021, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 104fabd16fd676147a18a37d122385b0, type: 3}
